@@ -25,4 +25,19 @@ export class CreateUserDto {
 
   @IsString()
   state: string;
+
+  @IsString()
+  githubUsername: string;
+
+  @IsString()
+  githubUrl: string;
+
+  @IsNumber()
+  githubId: number;
+
+  @IsString()
+  nodeId: string;
+
+  @IsString()
+  githubType: string;
 }

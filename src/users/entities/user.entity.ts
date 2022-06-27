@@ -16,4 +16,14 @@ export class User {
   addressNumber: string;
 
   state: string;
+
+  githubUsername: string;
+
+  githubUrl: string;
+
+  githubId: number;
+
+  nodeId: string;
+
+  githubType: string;
 }
