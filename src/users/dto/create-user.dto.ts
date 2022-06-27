@@ -22,4 +22,7 @@ export class CreateUserDto {
 
   @IsString()
   addressNumber: string;
+
+  @IsString()
+  state: string;
 }

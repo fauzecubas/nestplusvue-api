@@ -14,4 +14,6 @@ export class User {
   address: string;
 
   addressNumber: string;
+
+  state: string;
 }
