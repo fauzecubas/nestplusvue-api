@@ -40,4 +40,7 @@ export class CreateUserDto {
 
   @IsString()
   githubType: string;
+
+  @IsString()
+  reposUrl: string;
 }
