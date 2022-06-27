@@ -7,4 +7,19 @@ export class CreateUserDto {
 
   @IsNumber()
   age: number;
+
+  @IsNumber()
+  zipCode: number;
+
+  @IsString()
+  district: string;
+
+  @IsString()
+  city: string;
+
+  @IsString()
+  address: string;
+
+  @IsString()
+  addressNumber: string;
 }
