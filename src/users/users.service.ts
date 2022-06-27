@@ -57,4 +57,10 @@ export class UsersService {
 
     return;
   }
+
+  removeAll() {
+    this.users = [] as User[];
+
+    return;
+  }
 }
