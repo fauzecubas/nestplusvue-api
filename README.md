@@ -29,12 +29,12 @@ yarn start
 The project will run in http://localhost:3000
 
 ## Requests examples
- - *POST http://localhost:3000/users* will create a user;
- - *GET http://localhost:3000/users* will find all users;
- - *GET http://localhost:3000/users/1* will find a user with id = 1;
- - *DELETE http://localhost:3000/users* will delete all users;
- - *DELETE http://localhost:3000/users/1* will delete the user with id = 1;
- - *PATCH http://localhost:3000/users/1* will update the user with id = 1
+ - *POST /users* will create a user;
+ - *GET /users* will find all users;
+ - *GET /users/1* will find a user with id = 1;
+ - *DELETE /users* will delete all users;
+ - *DELETE /users/1* will delete the user with id = 1;
+ - *PATCH users/1* will update the user with id = 1
 
 
 ***IMPORTANT: There's a frontend project that uses this api. You can find more information here: https://github.com/fauzecubas/nestplusvue-frontend***
