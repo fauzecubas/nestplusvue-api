@@ -6,8 +6,9 @@
  - class-validator
  - Eslint
  - Prettier
+ - Swagger
  
-## Projects that uses *nestplusvue-api*
+### Projects that uses *nestplusvue-api*
  - nestplusvue-frontend (https://github.com/fauzecubas/nestplusvue-frontend)
 
 ### After cloning the project, install the dependencies
@@ -28,13 +29,7 @@ yarn start
 
 The project will run in http://localhost:3000
 
-## Requests examples
- - *POST /users* will create a user;
- - *GET /users* will find all users;
- - *GET /users/1* will find a user with id = 1;
- - *DELETE /users* will delete all users;
- - *DELETE /users/1* will delete the user with id = 1;
- - *PATCH users/1* will update the user with id = 1
+## Swagger Documentation endpoint: */swagger*
 
 
 ***IMPORTANT: There's a frontend project that uses this api. You can find more information here: https://github.com/fauzecubas/nestplusvue-frontend***
