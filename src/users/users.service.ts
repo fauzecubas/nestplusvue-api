@@ -25,13 +25,13 @@ export class UsersService {
     return this.users;
   }
 
-  findOne(id: number) {
+  findOne(id: number): User {
     const index = this.users.findIndex((user) => user.id === id);
 
     return this.users[index];
   }
 
-  update(id: number, updateUserDto: UpdateUserDto) {
+  update(id: number, updateUserDto: UpdateUserDto): User {
     const user = this.findOne(id);
 
     const newUser = {
@@ -46,7 +46,7 @@ export class UsersService {
     return newUser;
   }
 
-  remove(id: number) {
+  remove(id: number): void {
     const index = this.users.findIndex((user) => user.id === id);
 
     if (index === -1) {
@@ -58,7 +58,7 @@ export class UsersService {
     return;
   }
 
-  removeAll() {
+  removeAll(): void {
     this.users = [] as User[];
 
     return;
